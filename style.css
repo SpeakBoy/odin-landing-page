@@ -62,7 +62,7 @@ a {
     display: flex;
     background-color: gray;
     color: #e5e7eb;
-    width: 600px;
+    width: 550px;
     height: 250px;
     justify-content: center;
     align-items: center;
@@ -141,6 +141,33 @@ button {
     margin-left: 450px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.call_to_action {
+    width: 800px;
+    border-radius: 10px;
+    padding: 60px;
+    margin: 100px auto;
+    gap: 100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_to_action_header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call_to_action_secondary {
+    color: #f9faf8;
+    font-weight: lighter;
+}
+
+.call_to_action_button {
+    border: 2px #f9faf8 solid;
 }
 
 .footer {
