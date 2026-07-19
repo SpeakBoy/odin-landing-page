@@ -68,6 +68,52 @@
     gap: 24px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 48px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-content {
+    display: flex;
+    gap: 64px;
+}
+
+.information-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 160px;
+    gap: 8px;
+}
+
+.blank-image {
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    width: 160px;
+    height: 160px;
+}
+
+.image-subtext {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     list-style: none;
 }
@@ -84,5 +130,6 @@ button {
     font-weight: bold;
     border-radius: 8px;
     border: none;
-    padding: 8px 24px;
+    padding: 8px 32px;
+    font-size: 18px;
 }
