@@ -166,6 +166,18 @@
     border: 2px solid #E5E7EB;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 32px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+}
+
 body {
     display: flex;
     flex-direction: column;
