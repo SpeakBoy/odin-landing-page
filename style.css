@@ -140,6 +140,32 @@
     font-weight: bold;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.call-to-action-container {
+    display: flex;
+    width: 1000px;
+    padding: 64px 96px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-header,
+.call-to-action-text {
+    color: #E5E7EB;
+}
+
+.call-to-action-button {
+    border: 2px solid #E5E7EB;
+}
+
 body {
     display: flex;
     flex-direction: column;
